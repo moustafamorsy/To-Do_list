@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AddTask from './features/addTasks/addTask';
+// import { Routes, Route} from "react-router-dom";
+import Home from './Home';
+import Tasks from "./features/taskss/tasks";
+import {useSelector} from 'react-redux'
+
+
 
 function App() {
+  const Data = useSelector((state) => state.addTask.mainData)
+  
+
+const  printList= Data.map( list =>  <Tasks key={list.id} {...list} /> )
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+
+ <Home />
+ 
+ <AddTask />
+{printList}
     </div>
+  
+  
+
   );
 }
 
