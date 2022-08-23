@@ -64,8 +64,8 @@ function handleclick(e){
              <div onClick={addTask}>  <button >addTask</button> </div>
           
         </div>
-      { open &&  <form style={{position:'absolute',left:"22%", backgroundColor:'red',padding:'15px',width:'350px',textAlign:"center"}}>
-        <input onChange={handleChange} value={text}  size="30" placeholder="Enter task"></input>
+      { open &&  <form style={{position:'absolute',left:"33%", backgroundColor:'red',padding:'15px',width:'200px',textAlign:"center"}}>
+        <input onChange={handleChange} value={text}  size="20" placeholder="Enter task"></input>
         <button onClick={handleclick}>Add</button>
       </form>}
         

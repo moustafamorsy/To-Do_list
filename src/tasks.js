@@ -44,7 +44,7 @@ function handleChange(e){
      
 <h5 style={{cursor: 'pointer'}} onClick={ () => setOpen((prev) => !prev ) }>modify</h5>
  {open &&<div>
-  <input style={{marginLeft:"5px"}} onChange={handleChange}  type="text" value={modifyy} placeholder="Enter task"></input>
+  <input  style={{marginLeft:"5px"}} onChange={handleChange}  type="text" value={modifyy} placeholder="Enter task"></input>
    <button style={{marginLeft:"5px"}} onClick={handleModify}> Save </button>
  </div>}
   <h5 style={{cursor: 'pointer' ,paddingLeft:"5px"}} onClick={() => dispatch(Delete(props.id))}>Delete</h5>
