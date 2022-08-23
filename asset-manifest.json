@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/moustafamorsy.github.io/To-Do_list/static/css/main.e6c13ad2.css",
-    "main.js": "/moustafamorsy.github.io/To-Do_list/static/js/main.ef650847.js",
-    "index.html": "/moustafamorsy.github.io/To-Do_list/index.html",
-    "main.e6c13ad2.css.map": "/moustafamorsy.github.io/To-Do_list/static/css/main.e6c13ad2.css.map",
-    "main.ef650847.js.map": "/moustafamorsy.github.io/To-Do_list/static/js/main.ef650847.js.map"
+    "main.css": "/To-Do_list/static/css/main.e6c13ad2.css",
+    "main.js": "/To-Do_list/static/js/main.ef650847.js",
+    "index.html": "/To-Do_list/index.html",
+    "main.e6c13ad2.css.map": "/To-Do_list/static/css/main.e6c13ad2.css.map",
+    "main.ef650847.js.map": "/To-Do_list/static/js/main.ef650847.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
