@@ -49,7 +49,7 @@ function handleclick(e){
 
    <div style={{maxWidth:"600px",margin:"0 auto",marginTop:"50px",position:"relative"}}>
    
-   <div style={{display:"flex",justifyContent:"space-between"}} >
+   <div style={{display:"flex",justifyContent:"space-around"}} >
     
         <select
         id="filter"

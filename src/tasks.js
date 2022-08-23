@@ -27,7 +27,7 @@ function handleChange(e){
 
   return (
 
-    <div style={{display: 'flex', justifyContent: 'space-between'}}>
+    <div style={{display: 'flex', justifyContent: 'space-around'}}>
       <div style={{display: 'flex',alignItems:"baseline",}}>
 
       <input   
