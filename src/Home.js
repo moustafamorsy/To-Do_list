@@ -1,18 +1,26 @@
-
+import AddTask from './features/addtasks'
 
  const Home = () => {
-    const Styles={
-        nav:{textAlign : 'center',margin:0,padding:15, color: 'white'},
-        bg:{backgroundColor : 'black'},
-
+    const style ={
+     nav:{
+       textAlign: 'center',
+       backgroundColor:'black',
+     
+     },
+     n:{
+        margin:"0px",
+        padding:"10px",
+        color: "white",
+     }
 
     }
   return (
-    <div style={Styles.bg}>
-        <h1 style={Styles.nav}>My To Do List !</h1>
-        
-      
-    </div>
+    <>
+    <nav style={style.nav}>
+  <h1 style={style.n}>Your To Do List</h1>
+    </nav>
+    <AddTask />
+    </>
   )
 }
 
